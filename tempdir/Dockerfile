@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.12-slim
 RUN pip install flask --progress-bar off
 COPY  ./static /home/myapp/static/
 COPY  ./templates /home/myapp/templates/
